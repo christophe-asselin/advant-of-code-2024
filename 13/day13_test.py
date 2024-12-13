@@ -8,8 +8,7 @@ def test_read_input():
 
 
 def test_find_combination():
-    actual = find_combination(
-        (94, 34), (22, 67), (10000000008400, 10000000005400))
+    actual = find_combination((94, 34), (22, 67), (8400, 5400))
     expected = (80, 40)
     assert actual == expected
 
