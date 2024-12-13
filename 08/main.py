@@ -1,16 +1,18 @@
 import time
 
-from day9 import part_1, part_2
+from day8 import read_input, part_1, part_2
 
 
 def main():
+    coordinates_dict, m, n = read_input('./08/input.txt')
     t_0 = time.time()
-    result = part_1('./9/input.txt')
+    result = part_1(coordinates_dict, m, n)
     t_1 = time.time()
     print(f'Part 1: {result} in {(t_1 - t_0) * 1_000} ms')
 
+    coordinates_dict, m, n = read_input('./08/input.txt')
     t_0 = time.time()
-    result = part_2('./9/input.txt')
+    result = part_2(coordinates_dict, m, n)
     t_1 = time.time()
     print(f'Part 2: {result} in {(t_1 - t_0) * 1_000} ms')
 

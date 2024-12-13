@@ -1,6 +1,6 @@
 
 def read_input():
-    with open('./2/input.txt', 'r') as file:
+    with open('./02/input.txt', 'r') as file:
         return [[int(level) for level in line.split()] for line in file]
 
 

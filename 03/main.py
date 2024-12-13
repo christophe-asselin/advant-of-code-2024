@@ -2,7 +2,7 @@ import re
 
 
 def read_input():
-    with open('./3/input.txt', 'r') as file:
+    with open('./03/input.txt', 'r') as file:
         return ''.join(file)
 
 

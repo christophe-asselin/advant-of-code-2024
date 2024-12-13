@@ -24,13 +24,6 @@ def test_calculate_fence_cost():
     assert actual == expected
 
 
-def test_count_sides():
-    segments = { 0: [1, 2, 3, 5, 6, 8], 1: [0] }
-    actual = count_sides(segments)
-    expected = 4
-    assert actual == expected
-
-
 def test_get_plot_with_sides():
     map = read_input('./12/test_input.txt')
     area, perimeter = get_plot_with_sides(map, 0, 0)

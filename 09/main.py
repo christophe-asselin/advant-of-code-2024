@@ -1,18 +1,16 @@
 import time
 
-from day7 import read_input, part_1, part_2
+from day9 import part_1, part_2
 
 
 def main():
-    equations = read_input('./7/input.txt')
     t_0 = time.time()
-    result = part_1(equations)
+    result = part_1('./09/input.txt')
     t_1 = time.time()
     print(f'Part 1: {result} in {(t_1 - t_0) * 1_000} ms')
 
-    equations = read_input('./7/input.txt')
     t_0 = time.time()
-    result = part_2(equations)
+    result = part_2('./09/input.txt')
     t_1 = time.time()
     print(f'Part 2: {result} in {(t_1 - t_0) * 1_000} ms')
 

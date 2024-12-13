@@ -2,7 +2,7 @@ from day9 import *
 
 
 def test_read_input():
-    actual = read_input('./9/test_input.txt')
+    actual = read_input('./09/test_input.txt')
     expected = [2, 3, 3, 3, 1, 3, 3, 1, 2, 1, 4, 1, 4, 1, 3, 1, 4, 0, 2]
     assert actual == expected
 
@@ -30,7 +30,7 @@ def test_calculate_checksum():
 
 def test_part_1():
     expected = 1928
-    actual = part_1('./9/test_input.txt')
+    actual = part_1('./09/test_input.txt')
     assert actual == expected
 
 
@@ -55,6 +55,6 @@ def test_swap_files():
 
 
 def test_part_2():
-    actual = part_2('./9/test_input.txt')
+    actual = part_2('./09/test_input.txt')
     expected = 2858
     assert actual == expected

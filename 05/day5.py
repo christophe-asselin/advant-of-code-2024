@@ -2,7 +2,7 @@ from collections import defaultdict
 from functools import cmp_to_key
 
 def read_input():
-    with open('./5/input.txt', 'r') as file:
+    with open('./05/input.txt', 'r') as file:
         text_file =  file.read()
     return text_file.split('\n\n')
 

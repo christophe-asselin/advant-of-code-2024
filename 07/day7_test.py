@@ -1,7 +1,7 @@
 from day7 import *
 
 def test_read_input():
-    actual = read_input('./7/test_input.txt')
+    actual = read_input('./07/test_input.txt')
     expected = [
         Equation(test_value=190, numbers=[10, 19]),
         Equation(test_value=3267, numbers=[81, 40, 27]),
@@ -17,14 +17,14 @@ def test_read_input():
 
 
 def test_part_1():
-    equations = read_input('./7/test_input.txt')
+    equations = read_input('./07/test_input.txt')
     actual = part_1(equations)
     expected = 3749
     assert actual == expected
 
 
 def test_part_2():
-    equations = read_input('./7/test_input.txt')
+    equations = read_input('./07/test_input.txt')
     actual = part_2(equations)
     expected = 11387
     assert actual == expected

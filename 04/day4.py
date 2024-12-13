@@ -1,7 +1,7 @@
 import re
 
 def read_input():
-    with open('./4/input.txt', 'r') as file:
+    with open('./04/input.txt', 'r') as file:
         return file.read()
 
 
